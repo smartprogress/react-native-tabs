@@ -1,12 +1,14 @@
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
 var {
-  Component,
+  Component
+} = React;
+var {
   StyleSheet,
   TouchableOpacity,
   View,
-} = React;
+} = require('react-native');
 
 const iconStyle = (index, props) => {
   return index === props.children.length - 1
